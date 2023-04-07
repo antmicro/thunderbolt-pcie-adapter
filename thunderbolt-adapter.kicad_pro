@@ -320,6 +320,22 @@
     [
       "6701ed44-03d2-4633-acc7-b19b85d75ead",
       ""
+    ],
+    [
+      "3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3",
+      "Connectors"
+    ],
+    [
+      "c5be216d-0af2-4d3b-b234-e3e028a22446",
+      "Power"
+    ],
+    [
+      "edaf7d73-1c1f-440c-ac8b-fe148d6370ed",
+      "Thunderbolt Controller - Power"
+    ],
+    [
+      "42f40c2a-7d08-4162-a1a3-933510b09406",
+      "TB Controller"
     ]
   ],
   "text_variables": {}
