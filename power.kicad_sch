@@ -4,6 +4,10 @@
 
   (paper "A3" portrait)
 
+  (title_block
+    (rev "0.99")
+  )
+
   (lib_symbols
     (symbol "BLM21SN300SZ1D_1" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at 13.97 0 0)

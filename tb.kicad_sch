@@ -4,6 +4,10 @@
 
   (paper "A3" portrait)
 
+  (title_block
+    (rev "0.99")
+  )
+
   (lib_symbols
     (symbol "ABM8G-25.000MHZ-B4Y-T_1" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Y" (id 0) (at 22.86 -5.08 0)
