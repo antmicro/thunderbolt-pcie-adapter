@@ -420,8 +420,6 @@
         "microvia_drill": 0.1,
         "name": "85Ohm-diff_USB4",
         "nets": [
-          "/TB Controller/PA_AUX_N",
-          "/TB Controller/PA_AUX_P",
           "/TB Controller/PA_TX0_N",
           "/TB Controller/PA_TX0_P",
           "/TB Controller/PA_TX1_N",
