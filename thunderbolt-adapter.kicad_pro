@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -385,6 +385,14 @@
         "nets": [
           "/TB Controller/PCIE_CLK_JHL_N",
           "/TB Controller/PCIE_CLK_JHL_P",
+          "/TB Controller/TX0_N",
+          "/TB Controller/TX0_P",
+          "/TB Controller/TX1_N",
+          "/TB Controller/TX1_P",
+          "/TB Controller/TX2_N",
+          "/TB Controller/TX2_P",
+          "/TB Controller/TX3_N",
+          "/TB Controller/TX3_P",
           "PCIE_CLK_CON_N",
           "PCIE_CLK_CON_P",
           "PCIE_RX0_N",
