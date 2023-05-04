@@ -1929,6 +1929,18 @@
     (path "/c5be216d-0af2-4d3b-b234-e3e028a22446/fade270a-3f19-4a0f-b798-57371d540ea6"
       (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/a16afee8-3eeb-400e-8774-6a58ce356cce"
+      (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/ba57d0f0-1964-4fda-b6d5-16f83cfdd5f4"
+      (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/adc56570-7af6-4f82-bc0a-adccd6aebbb7"
+      (reference "#PWR0161") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/1e2a5826-b510-4d0f-be71-c04edf1b12d8"
+      (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/ee93009a-ac01-4467-98b4-1c4e226d60d4"
       (reference "C1") (unit 1) (value "C_10u_0805_35V") (footprint "antmicro-footprints:C_0805_2012Metric")
     )
@@ -2349,6 +2361,18 @@
     (path "/edaf7d73-1c1f-440c-ac8b-fe148d6370ed/7660bcd3-c91f-4d96-95bb-c303807f90d9"
       (reference "L4") (unit 1) (value "L_1u_1.8A_0603") (footprint "antmicro-footprints:L_0603_1608Metric")
     )
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/cf9b1f1d-e022-4a91-80a2-4c19da41ca17"
+      (reference "MP1") (unit 1) (value "PCB_Mount_Hole_3mm_6mm_pad") (footprint "antmicro-footprints:mounting-hole-3.2mm")
+    )
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/7cb5d971-344f-41e6-a910-deede7445616"
+      (reference "MP2") (unit 1) (value "PCB_Mount_Hole_3mm_6mm_pad") (footprint "antmicro-footprints:mounting-hole-3.2mm")
+    )
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/ed4f8da6-5c09-4ca7-aefb-e3f76f60b8f0"
+      (reference "MP3") (unit 1) (value "PCB_Mount_Hole_3mm_6mm_pad") (footprint "antmicro-footprints:mounting-hole-3.2mm")
+    )
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/bca7a4d2-cf7d-4b71-ad6f-a1affb773bf5"
+      (reference "MP4") (unit 1) (value "PCB_Mount_Hole_3mm_6mm_pad") (footprint "antmicro-footprints:mounting-hole-3.2mm")
+    )
     (path "/edaf7d73-1c1f-440c-ac8b-fe148d6370ed/290ccd43-3501-4807-bccf-3abd64178e07"
       (reference "Q1") (unit 1) (value "BC817-25W") (footprint "antmicro-footprints:SOT-323")
     )
@@ -2707,7 +2731,7 @@
       (reference "U4") (unit 2) (value "JHL6340SLLSQ") (footprint "antmicro-footprints:JHL6340SLLSQ")
     )
     (path "/42f40c2a-7d08-4162-a1a3-933510b09406/3d8120af-bc56-48b0-9552-1706edc9f016"
-      (reference "U5") (unit 1) (value "MX25L8006EM1I-12G") (footprint "antmicro-footprints:SOIC-8_W3.9mm")
+      (reference "U5") (unit 1) (value "MX25L8006EM1I-12G") (footprint "antmicro-footprints:SOIC-8_3.9x4.9x1.75mm_P1.27mm")
     )
     (path "/42f40c2a-7d08-4162-a1a3-933510b09406/7ed7b60e-c21c-4ed1-8176-3daddb85442d"
       (reference "U6") (unit 1) (value "SI52112-B6-GT") (footprint "antmicro-footprints:TSSOP-8_3x4.4mm_P0.65mm")

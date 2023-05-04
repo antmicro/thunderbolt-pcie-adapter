@@ -4899,7 +4899,7 @@
     (property "Value" "MX25L8006EM1I-12G" (id 1) (at 83.82 394.97 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "antmicro-footprints:SOIC-8_W3.9mm" (id 2) (at 39.37 384.81 0)
+    (property "Footprint" "antmicro-footprints:SOIC-8_3.9x4.9x1.75mm_P1.27mm" (id 2) (at 39.37 384.81 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8680/MX25L8006E,%203V,%208Mb,%20v1.6.pdf" (id 3) (at 39.37 387.35 0)
