@@ -31,3 +31,6 @@ fp-info-cache
 
 # lengthMatching configuration files
 lengthMatching.json
+
+# Round Tracks configuration files
+*.round-tracks-config
