@@ -2352,7 +2352,7 @@
     (path "/865882db-2ff4-4d36-b8dd-f025af470fd9"
       (reference "FID8") (unit 1) (value "antmicro_Fiducial_1mm_Mask3mm") (footprint "antmicro-footprints:Fiducial_1mm_Mask3mm")
     )
-    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/5b261d2e-9f61-49b7-8eea-9fdccde5cd10"
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/d50d55ea-6d33-4102-97a5-10d47f4af385"
       (reference "J1") (unit 1) (value "USB-C_DX07S024JJ2") (footprint "antmicro-footprints:USB-3.1-Gen2_Type-C_JAE_DX07S024JJ2_Horizontal")
     )
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/e23477b1-eb9b-44fd-97fb-f53d3324d866"
