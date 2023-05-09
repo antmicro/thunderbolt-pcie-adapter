@@ -5,7 +5,10 @@
   (paper "A3" portrait)
 
   (title_block
-    (rev "0.99")
+    (date "2023-05-09")
+    (rev "1.0.0")
+    (comment 1 "www.antmicro.com")
+    (comment 2 "Antmicro Ltd.")
   )
 
   (lib_symbols
