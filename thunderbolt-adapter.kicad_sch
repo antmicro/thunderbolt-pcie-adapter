@@ -2359,7 +2359,7 @@
       (reference "J1") (unit 1) (value "USB-C_DX07S024JJ2") (footprint "antmicro-footprints:USB-3.1-Gen2_Type-C_JAE_DX07S024JJ2_Horizontal")
     )
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/e23477b1-eb9b-44fd-97fb-f53d3324d866"
-      (reference "J2") (unit 1) (value "PCIe_x4_Conn_EdgeMount") (footprint "antmicro-footprints:PCIE_PCIE-064-02-X-D-EMSX")
+      (reference "J2") (unit 1) (value "PCIe_x4_Conn_EdgeMount_NoMilling") (footprint "antmicro-footprints:PCIE_TE_6-1734857-5")
     )
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/75350a53-630c-4e2d-9945-aae6d85cc339"
       (reference "J3") (unit 1) (value "Molex_Nano-Fit-1053xx_xx02-horizontal") (footprint "antmicro-footprints:Molex_Nano-Fit_1053xx-xx02_1x02_P2.50mm_Horizontal")
