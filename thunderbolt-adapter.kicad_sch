@@ -2757,6 +2757,9 @@
     (path "/42f40c2a-7d08-4162-a1a3-933510b09406/7ed7b60e-c21c-4ed1-8176-3daddb85442d"
       (reference "U6") (unit 1) (value "SI52112-B6-GT") (footprint "antmicro-footprints:TSSOP-8_3x4.4mm_P0.65mm")
     )
+    (path "/42f40c2a-7d08-4162-a1a3-933510b09406/284fc9b0-1ccb-4800-b68a-f7e91cbabb70"
+      (reference "U7") (unit 1) (value "MX25L8006EM2I-12G") (footprint "antmicro-footprints:SOIC-8_5.3x5.3x2mm_P1.27mm")
+    )
     (path "/42f40c2a-7d08-4162-a1a3-933510b09406/5ff521d1-2516-4e6e-b4b5-8d84904ea011"
       (reference "Y1") (unit 1) (value "ABM8G-25.000MHZ-B4Y-T") (footprint "antmicro-footprints:Oscillator_SMD_Geyer_KX-7-4Pin_3.2x2.5mm")
     )
