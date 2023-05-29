@@ -2736,6 +2736,9 @@
     (path "/c5be216d-0af2-4d3b-b234-e3e028a22446/1e9d0540-2b23-4847-8539-5d2a2b24c090"
       (reference "TP11") (unit 1) (value "Net-Tie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
     )
+    (path "/c5be216d-0af2-4d3b-b234-e3e028a22446/51e5184f-8309-47aa-8bf1-e452f8224ab5"
+      (reference "TP12") (unit 1) (value "TP_1mm_SMD") (footprint "antmicro-footprints:TP_SMD_1mm")
+    )
     (path "/c5be216d-0af2-4d3b-b234-e3e028a22446/14e0d49e-541f-4d68-ba51-a9da4664bf43"
       (reference "U1") (unit 1) (value "LT8350RV#PBF") (footprint "antmicro-footprints:LT8350")
     )
