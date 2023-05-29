@@ -1938,9 +1938,6 @@
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/ba57d0f0-1964-4fda-b6d5-16f83cfdd5f4"
       (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/adc56570-7af6-4f82-bc0a-adccd6aebbb7"
-      (reference "#PWR0161") (unit 1) (value "GND") (footprint "")
-    )
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/1e2a5826-b510-4d0f-be71-c04edf1b12d8"
       (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
     )
@@ -2358,8 +2355,8 @@
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/d50d55ea-6d33-4102-97a5-10d47f4af385"
       (reference "J1") (unit 1) (value "USB-C_DX07S024JJ2") (footprint "antmicro-footprints:USB-3.1-Gen2_Type-C_JAE_DX07S024JJ2_Horizontal")
     )
-    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/e23477b1-eb9b-44fd-97fb-f53d3324d866"
-      (reference "J2") (unit 1) (value "PCIe_x4_Conn_EdgeMount_NoMilling") (footprint "antmicro-footprints:PCIE_TE_6-1734857-5")
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/aa5ae993-93e2-450e-8712-289662f0b6a1"
+      (reference "J2") (unit 1) (value "PCIe_x4_Conn_EdgeMount_Open") (footprint "antmicro-footprints:PCIE_TE_2-2387405-2")
     )
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/75350a53-630c-4e2d-9945-aae6d85cc339"
       (reference "J3") (unit 1) (value "Molex_Nano-Fit-1053xx_xx02-horizontal") (footprint "antmicro-footprints:Molex_Nano-Fit_1053xx-xx02_1x02_P2.50mm_Horizontal")
@@ -2384,9 +2381,6 @@
     )
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/ed4f8da6-5c09-4ca7-aefb-e3f76f60b8f0"
       (reference "MP3") (unit 1) (value "PCB_Mount_Hole_3mm_6mm_pad") (footprint "antmicro-footprints:mounting-hole-3.2mm")
-    )
-    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/bca7a4d2-cf7d-4b71-ad6f-a1affb773bf5"
-      (reference "MP4") (unit 1) (value "PCB_Mount_Hole_3mm_6mm_pad") (footprint "antmicro-footprints:mounting-hole-3.2mm")
     )
     (path "/edaf7d73-1c1f-440c-ac8b-fe148d6370ed/290ccd43-3501-4807-bccf-3abd64178e07"
       (reference "Q1") (unit 1) (value "BC817-25W") (footprint "antmicro-footprints:SOT-323")
