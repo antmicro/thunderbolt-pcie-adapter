@@ -2466,8 +2466,8 @@
     (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/aa5ae993-93e2-450e-8712-289662f0b6a1"
       (reference "J2") (unit 1) (value "PCIe_x4_Conn_EdgeMount_Open") (footprint "antmicro-footprints:PCIE_TE_2-2387405-2")
     )
-    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/75350a53-630c-4e2d-9945-aae6d85cc339"
-      (reference "J3") (unit 1) (value "Molex_Nano-Fit-1053xx_xx02-horizontal") (footprint "antmicro-footprints:Molex_Nano-Fit_1053xx-xx02_1x02_P2.50mm_Horizontal")
+    (path "/3cf1056a-c882-4aa3-b4ed-cc5a76fc7bf3/54c8681b-30e9-47a7-a47c-86962f777c12"
+      (reference "J3") (unit 1) (value "Conn_Molex_NanoFit_1053131202") (footprint "antmicro-footprints:Conn_Molex_NanoFit_1053131202")
     )
     (path "/c5be216d-0af2-4d3b-b234-e3e028a22446/2b5f65d4-3efa-44da-a9a6-418d3f9c8a52"
       (reference "L1") (unit 1) (value "L_6u8_12.8A_XAL7070") (footprint "antmicro-footprints:L_Coilcraft_XAL7070")
