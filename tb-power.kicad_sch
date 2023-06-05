@@ -5,7 +5,8 @@
   (paper "A3" portrait)
 
   (title_block
-    (date "2023-05-09")
+    (title "Thunderbolt PCIe Adaper")
+    (date "2023-06-05")
     (rev "1.0.0")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
