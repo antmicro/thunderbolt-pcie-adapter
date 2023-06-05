@@ -25,6 +25,10 @@ The remaining files are stored in the following directories:
 * `img` - contains graphics for this README
 * `doc` - contains schematics in pdf form
 
+## Block diagram
+
+![Thunderbolt-PCIe adapter](/img/thunderbolt-pcie-adapter-diagram.png)
+
 ## Licensing
 
 This project is published under the [Apache-2.0](LICENSE) license.
