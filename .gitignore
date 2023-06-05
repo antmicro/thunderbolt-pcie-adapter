@@ -34,3 +34,7 @@ lengthMatching.json
 
 # Round Tracks configuration files
 *.round-tracks-config
+
+# Vim
+*swp
+*swo
