@@ -8,7 +8,7 @@ Copyright (c) 2022-2023 [Antmicro](https://www.antmicro.com)
 
 This project contains open hardware design files for an adapter board wrapping 4-lane (i.e. 4x) PCIe Gen 3.0 devices into a Thunderbolt 3 uplink.
 It is based on the Intel/JHL6340SLLSQ Thunderbolt controller.
-The design files were preapared in KiCad 6.x.
+The design files were prepared in KiCad 6.x.
 
 ## Key features
 
