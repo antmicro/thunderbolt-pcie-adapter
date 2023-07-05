@@ -35,6 +35,9 @@ lengthMatching.json
 # Round Tracks configuration files
 *.round-tracks-config
 
+# License report files
+license_report.log
+
 # Vim
 *swp
 *swo
