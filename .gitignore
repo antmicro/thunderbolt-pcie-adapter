@@ -27,16 +27,12 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
 
 # lengthMatching configuration files
 lengthMatching.json
 
 # Round Tracks configuration files
 *.round-tracks-config
-
-# License report files
-license_report.log
 
 # Vim
 *swp
