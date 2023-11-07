@@ -1,0 +1,14 @@
+Name;Type;Material;Thickness[mm];Constant
+F.Mask;Top Solder Mask;;0.01;
+F.Cu;copper;;0.035;
+dielectric 1;prepreg;PR2116;0.12;4.12
+In1.Cu;copper;;0.018;
+dielectric 2;core;FR4-Improved;0.51;4.125
+In2.Cu;copper;;0.018;
+dielectric 3;prepreg;PR1080;0.14;4.125
+In3.Cu;copper;;0.018;
+dielectric 4;core;FR4-Improved;0.51;4.125
+In4.Cu;copper;;0.018;
+dielectric 5;prepreg;PR2116;0.12;4.12
+B.Cu;copper;;0.035;
+B.Mask;Bottom Solder Mask;;0.01;
