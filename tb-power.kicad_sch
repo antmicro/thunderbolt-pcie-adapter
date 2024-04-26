@@ -434,7 +434,7 @@
       )
     )
     (symbol "antmicroInterfaceControllers:JHL6340SLLSQ" (in_bom yes) (on_board yes)
-      (property "Reference" "U?" (at 71.12 0 0)
+      (property "Reference" "U" (at 71.12 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "JHL6340SLLSQ" (at 71.12 -2.54 0)
@@ -461,10 +461,10 @@
       (property "ki_locked" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "ki_keywords" "Intel, Thunderbolt 3, Controller" (at 0 0 0)
+      (property "ki_keywords" "IC" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Intel Thunderbolt 3 Controller" (at 0 0 0)
+      (property "ki_description" "Thunderbolt™ 3 Controller, I/O" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "JHL6340SLLSQ_1_0"
@@ -474,7 +474,7 @@
         )
       )
       (symbol "JHL6340SLLSQ_1_1"
-        (pin passive line (at 54.61 -55.88 180) (length 5.08)
+        (pin power_in line (at 54.61 -55.88 180) (length 5.08)
           (name "SVR_VSS" (effects (font (size 1.27 1.27))))
           (number "A1" (effects (font (size 1.27 1.27))))
         )
@@ -498,7 +498,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "A18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 0 180) (length 5.08)
+        (pin power_in line (at 54.61 0 180) (length 5.08)
           (name "VCC3P3_SVR" (effects (font (size 1.27 1.27))))
           (number "A2" (effects (font (size 1.27 1.27))))
         )
@@ -510,7 +510,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "A22" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 0 180) (length 5.08) hide
+        (pin power_in line (at 54.61 0 180) (length 5.08) hide
           (name "VCC3P3_SVR" (effects (font (size 1.27 1.27))))
           (number "A3" (effects (font (size 1.27 1.27))))
         )
@@ -530,7 +530,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "AA23" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 54.61 -81.28 180) (length 5.08)
+        (pin passive line (at 54.61 -81.28 180) (length 5.08) hide
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "AB1" (effects (font (size 1.27 1.27))))
         )
@@ -610,7 +610,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "AC8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -55.88 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -55.88 180) (length 5.08) hide
           (name "SVR_VSS" (effects (font (size 1.27 1.27))))
           (number "B1" (effects (font (size 1.27 1.27))))
         )
@@ -634,7 +634,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "B18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -55.88 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -55.88 180) (length 5.08) hide
           (name "SVR_VSS" (effects (font (size 1.27 1.27))))
           (number "B2" (effects (font (size 1.27 1.27))))
         )
@@ -646,7 +646,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "B22" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 0 180) (length 5.08) hide
+        (pin power_in line (at 54.61 0 180) (length 5.08) hide
           (name "VCC3P3_SVR" (effects (font (size 1.27 1.27))))
           (number "B3" (effects (font (size 1.27 1.27))))
         )
@@ -658,15 +658,15 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "B8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -53.34 180) (length 5.08)
+        (pin power_out line (at 54.61 -53.34 180) (length 5.08)
           (name "SVR_IND" (effects (font (size 1.27 1.27))))
           (number "C1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -53.34 180) (length 5.08) hide
+        (pin power_out line (at 54.61 -53.34 180) (length 5.08) hide
           (name "SVR_IND" (effects (font (size 1.27 1.27))))
           (number "C2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -53.34 180) (length 5.08) hide
+        (pin power_out line (at 54.61 -53.34 180) (length 5.08) hide
           (name "SVR_IND" (effects (font (size 1.27 1.27))))
           (number "D1" (effects (font (size 1.27 1.27))))
         )
@@ -694,7 +694,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "D18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -81.28 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -81.28 180) (length 5.08)
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "D5" (effects (font (size 1.27 1.27))))
         )
@@ -710,11 +710,11 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "E11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -38.1 180) (length 5.08)
+        (pin power_in line (at 54.61 -38.1 180) (length 5.08)
           (name "VCC0P9_SVR_ANA" (effects (font (size 1.27 1.27))))
           (number "E12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -38.1 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -38.1 180) (length 5.08) hide
           (name "VCC0P9_SVR_ANA" (effects (font (size 1.27 1.27))))
           (number "E13" (effects (font (size 1.27 1.27))))
         )
@@ -754,19 +754,19 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "E9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -38.1 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -38.1 180) (length 5.08) hide
           (name "VCC0P9_SVR_ANA" (effects (font (size 1.27 1.27))))
           (number "F11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -38.1 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -38.1 180) (length 5.08) hide
           (name "VCC0P9_SVR_ANA" (effects (font (size 1.27 1.27))))
           (number "F12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -38.1 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -38.1 180) (length 5.08) hide
           (name "VCC0P9_SVR_ANA" (effects (font (size 1.27 1.27))))
           (number "F13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -38.1 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -38.1 180) (length 5.08) hide
           (name "VCC0P9_SVR_ANA" (effects (font (size 1.27 1.27))))
           (number "F15" (effects (font (size 1.27 1.27))))
         )
@@ -774,7 +774,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "F16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -71.12 180) (length 5.08)
+        (pin power_in line (at 54.61 -71.12 180) (length 5.08)
           (name "VCC0P9_LVR" (effects (font (size 1.27 1.27))))
           (number "F18" (effects (font (size 1.27 1.27))))
         )
@@ -790,7 +790,7 @@
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "F6" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -2.54 180) (length 5.08)
+        (pin power_in line (at 54.61 -2.54 180) (length 5.08)
           (name "VCC3P3_SX" (effects (font (size 1.27 1.27))))
           (number "F8" (effects (font (size 1.27 1.27))))
         )
@@ -810,7 +810,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "H1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -73.66 180) (length 5.08)
+        (pin power_in line (at 54.61 -73.66 180) (length 5.08)
           (name "VCC0P9_LVR_SENSE" (effects (font (size 1.27 1.27))))
           (number "H11" (effects (font (size 1.27 1.27))))
         )
@@ -830,7 +830,7 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "H16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -71.12 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -71.12 180) (length 5.08) hide
           (name "VCC0P9_LVR" (effects (font (size 1.27 1.27))))
           (number "H18" (effects (font (size 1.27 1.27))))
         )
@@ -850,11 +850,11 @@
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "H8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -5.08 180) (length 5.08)
+        (pin power_in line (at 54.61 -5.08 180) (length 5.08)
           (name "VCC3P3A" (effects (font (size 1.27 1.27))))
           (number "H9" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -71.12 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -71.12 180) (length 5.08) hide
           (name "VCC0P9_LVR" (effects (font (size 1.27 1.27))))
           (number "J11" (effects (font (size 1.27 1.27))))
         )
@@ -870,7 +870,7 @@
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "J15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -73.66 0) (length 5.08)
+        (pin power_in line (at 0 -73.66 0) (length 5.08)
           (name "VCC3P3_ANA_USB2" (effects (font (size 1.27 1.27))))
           (number "J16" (effects (font (size 1.27 1.27))))
         )
@@ -902,7 +902,7 @@
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "J8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -40.64 180) (length 5.08)
+        (pin power_in line (at 54.61 -40.64 180) (length 5.08)
           (name "VCC0P9_SVR_SENSE" (effects (font (size 1.27 1.27))))
           (number "J9" (effects (font (size 1.27 1.27))))
         )
@@ -914,11 +914,11 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "K2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 0 0) (length 5.08)
+        (pin power_in line (at 0 0 0) (length 5.08) hide
           (name "VCC0P9_DP" (effects (font (size 1.27 1.27))))
           (number "L11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 0 0) (length 5.08) hide
+        (pin power_in line (at 0 0 0) (length 5.08) hide
           (name "VCC0P9_DP" (effects (font (size 1.27 1.27))))
           (number "L12" (effects (font (size 1.27 1.27))))
         )
@@ -926,15 +926,15 @@
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "L13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -71.12 0) (length 5.08)
+        (pin power_in line (at 0 -71.12 0) (length 5.08)
           (name "VCC3P3_ANA_PCIE" (effects (font (size 1.27 1.27))))
           (number "L16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -22.86 0) (length 5.08)
+        (pin power_in line (at 0 -22.86 0) (length 5.08)
           (name "VCC0P9_ANA_PCIE_2" (effects (font (size 1.27 1.27))))
           (number "L18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -20.32 0) (length 5.08)
+        (pin power_in line (at 0 -20.32 0) (length 5.08)
           (name "VCC0P9_ANA_PCIE_1" (effects (font (size 1.27 1.27))))
           (number "L19" (effects (font (size 1.27 1.27))))
         )
@@ -954,15 +954,15 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "L5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -2.54 0) (length 5.08)
+        (pin power_in line (at 0 -2.54 0) (length 5.08)
           (name "VCC0P9_ANA_DPSRC" (effects (font (size 1.27 1.27))))
           (number "L6" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 0 0) (length 5.08) hide
+        (pin power_in line (at 0 0 0) (length 5.08)
           (name "VCC0P9_DP" (effects (font (size 1.27 1.27))))
           (number "L8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -35.56 180) (length 5.08)
+        (pin power_in line (at 54.61 -35.56 180) (length 5.08)
           (name "VCC0P9_SVR" (effects (font (size 1.27 1.27))))
           (number "L9" (effects (font (size 1.27 1.27))))
         )
@@ -978,19 +978,19 @@
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "M12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -17.78 0) (length 5.08)
+        (pin power_in line (at 0 -17.78 0) (length 5.08)
           (name "VCC0P9_PCIE" (effects (font (size 1.27 1.27))))
           (number "M13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -17.78 0) (length 5.08) hide
+        (pin power_in line (at 0 -17.78 0) (length 5.08) hide
           (name "VCC0P9_PCIE" (effects (font (size 1.27 1.27))))
           (number "M15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -17.78 0) (length 5.08) hide
+        (pin power_in line (at 0 -17.78 0) (length 5.08) hide
           (name "VCC0P9_PCIE" (effects (font (size 1.27 1.27))))
           (number "M16" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -22.86 0) (length 5.08) hide
+        (pin power_in line (at 0 -22.86 0) (length 5.08) hide
           (name "VCC0P9_ANA_PCIE_2" (effects (font (size 1.27 1.27))))
           (number "M18" (effects (font (size 1.27 1.27))))
         )
@@ -1010,15 +1010,15 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "M5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -2.54 0) (length 5.08) hide
+        (pin power_in line (at 0 -2.54 0) (length 5.08) hide
           (name "VCC0P9_ANA_DPSRC" (effects (font (size 1.27 1.27))))
           (number "M6" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 0 0) (length 5.08) hide
+        (pin power_in line (at 0 0 0) (length 5.08) hide
           (name "VCC0P9_DP" (effects (font (size 1.27 1.27))))
           (number "M8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -35.56 180) (length 5.08) hide
+        (pin power_in line (at 54.61 -35.56 180) (length 5.08) hide
           (name "VCC0P9_SVR" (effects (font (size 1.27 1.27))))
           (number "M9" (effects (font (size 1.27 1.27))))
         )
@@ -1034,11 +1034,11 @@
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "N13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -22.86 0) (length 5.08) hide
+        (pin power_in line (at 0 -22.86 0) (length 5.08) hide
           (name "VCC0P9_ANA_PCIE_2" (effects (font (size 1.27 1.27))))
           (number "N18" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -20.32 0) (length 5.08) hide
+        (pin power_in line (at 0 -20.32 0) (length 5.08) hide
           (name "VCC0P9_ANA_PCIE_1" (effects (font (size 1.27 1.27))))
           (number "N19" (effects (font (size 1.27 1.27))))
         )
@@ -1074,23 +1074,23 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "P2" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -53.34 0) (length 5.08)
+        (pin power_in line (at 0 -53.34 0) (length 5.08) hide
           (name "VCC0P9_CIO" (effects (font (size 1.27 1.27))))
           (number "R11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -53.34 0) (length 5.08) hide
+        (pin power_in line (at 0 -53.34 0) (length 5.08) hide
           (name "VCC0P9_CIO" (effects (font (size 1.27 1.27))))
           (number "R12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -17.78 180) (length 5.08)
+        (pin power_in line (at 54.61 -17.78 180) (length 5.08)
           (name "VCC3P3_S0" (effects (font (size 1.27 1.27))))
           (number "R13" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -35.56 0) (length 5.08)
+        (pin power_in line (at 0 -35.56 0) (length 5.08)
           (name "VCC0P9_USB" (effects (font (size 1.27 1.27))))
           (number "R15" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -35.56 0) (length 5.08) hide
+        (pin power_in line (at 0 -35.56 0) (length 5.08) hide
           (name "VCC0P9_USB" (effects (font (size 1.27 1.27))))
           (number "R16" (effects (font (size 1.27 1.27))))
         )
@@ -1118,15 +1118,15 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "R5" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 54.61 -20.32 180) (length 5.08)
+        (pin power_in line (at 54.61 -20.32 180) (length 5.08)
           (name "VCC3P3_LC" (effects (font (size 1.27 1.27))))
           (number "R6" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -53.34 0) (length 5.08) hide
+        (pin power_in line (at 0 -53.34 0) (length 5.08)
           (name "VCC0P9_CIO" (effects (font (size 1.27 1.27))))
           (number "R8" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -53.34 0) (length 5.08) hide
+        (pin power_in line (at 0 -53.34 0) (length 5.08) hide
           (name "VCC0P9_CIO" (effects (font (size 1.27 1.27))))
           (number "R9" (effects (font (size 1.27 1.27))))
         )
@@ -1134,11 +1134,11 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "T1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 0 0) (length 5.08) hide
+        (pin power_in line (at 0 0 0) (length 5.08) hide
           (name "VCC0P9_DP" (effects (font (size 1.27 1.27))))
           (number "T11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 0 0) (length 5.08) hide
+        (pin power_in line (at 0 0 0) (length 5.08) hide
           (name "VCC0P9_DP" (effects (font (size 1.27 1.27))))
           (number "T12" (effects (font (size 1.27 1.27))))
         )
@@ -1190,15 +1190,15 @@
           (name "VSS_ANA" (effects (font (size 1.27 1.27))))
           (number "U23" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -5.08 0) (length 5.08)
+        (pin power_in line (at 0 -5.08 0) (length 5.08)
           (name "VCC0P9_ANA_DPSNK" (effects (font (size 1.27 1.27))))
           (number "V11" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -5.08 0) (length 5.08) hide
+        (pin power_in line (at 0 -5.08 0) (length 5.08) hide
           (name "VCC0P9_ANA_DPSNK" (effects (font (size 1.27 1.27))))
           (number "V12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 0 -5.08 0) (length 5.08) hide
+        (pin power_in line (at 0 -5.08 0) (length 5.08) hide
           (name "VCC0P9_ANA_DPSNK" (effects (font (size 1.27 1.27))))
           (number "V13" (effects (font (size 1.27 1.27))))
         )
@@ -6786,10 +6786,10 @@
   (symbol (lib_id "antmicroInterfaceControllers:JHL6340SLLSQ") (at 167.005 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7915a9ae-98c2-4322-9ead-3cc1d4f16f7b)
-    (property "Reference" "U4" (at 194.31 90.17 0)
+    (property "Reference" "U4" (at 194.31 91.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
-    (property "Value" "JHL6340SLLSQ" (at 194.31 92.71 0)
+    (property "Value" "JHL6340SLLSQ" (at 194.31 93.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Footprint" "antmicro-footprints:JHL6340SLLSQ" (at 238.125 104.775 0)
