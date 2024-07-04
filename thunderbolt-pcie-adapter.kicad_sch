@@ -165,7 +165,7 @@
     (property "Value" "antmicro_logo" (at 119.38 271.0662 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "antmicro-footprints:antmicro-logo" (at 128.905 280.67 0)
+    (property "Footprint" "antmicro-footprints:antmicro-logo_scaled_12mm_mask" (at 128.905 280.67 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 128.905 283.21 0)
