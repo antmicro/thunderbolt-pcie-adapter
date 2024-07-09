@@ -6,8 +6,8 @@
 
   (title_block
     (title "Thunderbolt PCIe Adaper")
-    (date "2023-08-09")
-    (rev "1.0.2")
+    (date "2024-07-09")
+    (rev "1.0.3")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd.")
   )
@@ -153,7 +153,7 @@
     (property "Value" "antmicro_logo" (at 119.38 271.0662 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Footprint" "antmicro-footprints:antmicro-logo" (at 128.905 280.67 0)
+    (property "Footprint" "antmicro-footprints:antmicro-logo_scaled_12mm_mask" (at 128.905 280.67 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 128.905 283.21 0)
